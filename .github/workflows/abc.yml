@@ -1,6 +1,11 @@
 name: Vaibhav
+
+on: push
+
 jobs:
-  test:
-    steps:
-      - name: 23f2004675@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+ super-lint: 
+  runs-on: ubuntu-latest
+  name: vaibhav
+  steps:
+    - name: 23f2004675@ds.study.iitm.ac.in
+      run: echo "Hello, world!"
